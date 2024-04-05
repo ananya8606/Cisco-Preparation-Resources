@@ -1,0 +1,4 @@
+1. sorts a vector of points based on the first element of each point in ascending order. 
+ sort(points.begin(),points.end(),[](const auto& a,const auto& b) {
+        return a[0] < b[0];
+    });
